@@ -1,3 +1,41 @@
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+    
+    //alert("Obrigado por clicar");
+}
+function redirecionar(){
+    //window.open("https://www.instagram.com/lunaacessoriosararaquara/");
+    window.location.href = "https://www.instagram.com/lunaacessoriosararaquara/"
+}
+
+
+
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    //alert("trocar texto");
+
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+
+}
+
+function load(){
+alert("pagina carregada");
+}
+
+function funcaoChange(){
+    console.log(elemento.value);
+}
+
+
+
+
+/*
 function soma(n1, n2){
      return n1+ n2;
 }
@@ -14,7 +52,7 @@ function validaIdade(idade){
 }
  var idade = prompt("Qual sua idade");
  console.log(validaIdade(idade));
-
+*/
 //alert (soma(5,10));
 //var d = new Date();
 //alert (d.getMonth());
